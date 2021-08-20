@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C1E3791269C12FD00D980BA /* HelloDoctorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E3790269C12FD00D980BA /* HelloDoctorApp.swift */; };
+		8C1E3793269C12FD00D980BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E3792269C12FD00D980BA /* ContentView.swift */; };
+		8C1E3795269C12FD00D980BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1E3794269C12FD00D980BA /* Assets.xcassets */; };
+		8C1E3798269C12FD00D980BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1E3797269C12FD00D980BA /* Preview Assets.xcassets */; };
+		8C1E37A0269C1E7E00D980BA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1E379F269C1E7E00D980BA /* Launch Screen.storyboard */; };
+		8C1E37A6269C21B700D980BA /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37A5269C21B700D980BA /* SplashView.swift */; };
+		8C1E37A8269C279100D980BA /* RootScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37A7269C279100D980BA /* RootScreenModel.swift */; };
+		8C1E37AA269C2FF700D980BA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37A9269C2FF700D980BA /* LoginView.swift */; };
+		8C1E37AC269C300D00D980BA /* UserTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37AB269C300D00D980BA /* UserTypeView.swift */; };
+		8C1E37AE269C301600D980BA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37AD269C301600D980BA /* MainView.swift */; };
+		8C1E37B0269C3F3E00D980BA /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37AF269C3F3E00D980BA /* ViewModifiers.swift */; };
+		8C1E37B2269C464400D980BA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37B1269C464400D980BA /* Colors.swift */; };
+		8C1E37BA269D261F00D980BA /* RoundedRetangleOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37B9269D261F00D980BA /* RoundedRetangleOutlineButton.swift */; };
+		8C1E37BC269D262C00D980BA /* RoundedRetangleElevatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37BB269D262C00D980BA /* RoundedRetangleElevatedButton.swift */; };
+		8C1E37BE269D2DCB00D980BA /* LogoTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37BD269D2DCB00D980BA /* LogoTitle.swift */; };
+		8C1E37C0269D2E6F00D980BA /* FieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37BF269D2E6F00D980BA /* FieldView.swift */; };
+		8C1E37C2269D2FC500D980BA /* LoginActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37C1269D2FC500D980BA /* LoginActions.swift */; };
+		8C1E37C4269D301500D980BA /* VGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37C3269D301500D980BA /* VGap.swift */; };
+		8C1E37C7269D37D200D980BA /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37C6269D37D200D980BA /* PrivacyView.swift */; };
+		8C1E37C9269D3EBE00D980BA /* ThirdLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37C8269D3EBE00D980BA /* ThirdLogin.swift */; };
+		8C1E37D0269D6E6900D980BA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37CF269D6E6900D980BA /* HomeView.swift */; };
+		8C1E37D2269D6E7A00D980BA /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37D1269D6E7A00D980BA /* ChatView.swift */; };
+		8C1E37D4269D6E8900D980BA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37D3269D6E8900D980BA /* ProfileView.swift */; };
+		8C1E37D9269D87D700D980BA /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37D8269D87D700D980BA /* GuideView.swift */; };
+		8C1E37DB269E8F7500D980BA /* DoctorInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37DA269E8F7500D980BA /* DoctorInfoView.swift */; };
+		8C1E37DF269E94AD00D980BA /* MainMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37DE269E94AD00D980BA /* MainMenus.swift */; };
+		8C1E37E1269EC34C00D980BA /* MenusSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37E0269EC34C00D980BA /* MenusSectionView.swift */; };
+		8C1E37E3269ECA9D00D980BA /* MenusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37E2269ECA9D00D980BA /* MenusView.swift */; };
+		8C1E37E5269ED50400D980BA /* HomeTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37E4269ED50400D980BA /* HomeTopView.swift */; };
+		8C1E37E7269EEE8900D980BA /* ProfileTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37E6269EEE8900D980BA /* ProfileTopView.swift */; };
+		8C1E37E9269F015C00D980BA /* ProfileRowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37E8269F015C00D980BA /* ProfileRowsView.swift */; };
+		8C1E37EB269F041E00D980BA /* MyEvalutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37EA269F041E00D980BA /* MyEvalutionView.swift */; };
+		8C1E37ED269FCC5100D980BA /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37EC269FCC5100D980BA /* AuthView.swift */; };
+		8C1E37EF269FD4C300D980BA /* NavArrowRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37EE269FD4C300D980BA /* NavArrowRightView.swift */; };
+		8C1E37F1269FE04500D980BA /* BaseInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37F0269FE04500D980BA /* BaseInfoCard.swift */; };
+		8C1E37F3269FE05E00D980BA /* AuthCardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37F2269FE05E00D980BA /* AuthCardRow.swift */; };
+		8C1E37F5269FE08E00D980BA /* NavAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37F4269FE08E00D980BA /* NavAction.swift */; };
+		8C1E37F7269FE0F900D980BA /* DeptInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37F6269FE0F900D980BA /* DeptInfoCard.swift */; };
+		8C1E37FB269FE1E100D980BA /* GuideModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37FA269FE1E100D980BA /* GuideModel.swift */; };
+		8C1E37FD269FE3B600D980BA /* DoctorAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37FC269FE3B600D980BA /* DoctorAuthModel.swift */; };
+		8C1E37FF269FE6C700D980BA /* AuthCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E37FE269FE6C700D980BA /* AuthCard.swift */; };
+		8C1E3801269FE9F600D980BA /* CredentialInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E3800269FE9F600D980BA /* CredentialInfoCard.swift */; };
+		8C1E3803269FF5DC00D980BA /* AgentInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1E3802269FF5DC00D980BA /* AgentInfoCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C1E378D269C12FD00D980BA /* HelloDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1E3790269C12FD00D980BA /* HelloDoctorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloDoctorApp.swift; sourceTree = "<group>"; };
+		8C1E3792269C12FD00D980BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C1E3794269C12FD00D980BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C1E3797269C12FD00D980BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C1E3799269C12FD00D980BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1E379F269C1E7E00D980BA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8C1E37A5269C21B700D980BA /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8C1E37A7269C279100D980BA /* RootScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootScreenModel.swift; sourceTree = "<group>"; };
+		8C1E37A9269C2FF700D980BA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8C1E37AB269C300D00D980BA /* UserTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTypeView.swift; sourceTree = "<group>"; };
+		8C1E37AD269C301600D980BA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8C1E37AF269C3F3E00D980BA /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		8C1E37B1269C464400D980BA /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8C1E37B9269D261F00D980BA /* RoundedRetangleOutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRetangleOutlineButton.swift; sourceTree = "<group>"; };
+		8C1E37BB269D262C00D980BA /* RoundedRetangleElevatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRetangleElevatedButton.swift; sourceTree = "<group>"; };
+		8C1E37BD269D2DCB00D980BA /* LogoTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTitle.swift; sourceTree = "<group>"; };
+		8C1E37BF269D2E6F00D980BA /* FieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldView.swift; sourceTree = "<group>"; };
+		8C1E37C1269D2FC500D980BA /* LoginActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginActions.swift; sourceTree = "<group>"; };
+		8C1E37C3269D301500D980BA /* VGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGap.swift; sourceTree = "<group>"; };
+		8C1E37C6269D37D200D980BA /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		8C1E37C8269D3EBE00D980BA /* ThirdLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLogin.swift; sourceTree = "<group>"; };
+		8C1E37CF269D6E6900D980BA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8C1E37D1269D6E7A00D980BA /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		8C1E37D3269D6E8900D980BA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8C1E37D8269D87D700D980BA /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		8C1E37DA269E8F7500D980BA /* DoctorInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorInfoView.swift; sourceTree = "<group>"; };
+		8C1E37DE269E94AD00D980BA /* MainMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenus.swift; sourceTree = "<group>"; };
+		8C1E37E0269EC34C00D980BA /* MenusSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusSectionView.swift; sourceTree = "<group>"; };
+		8C1E37E2269ECA9D00D980BA /* MenusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenusView.swift; sourceTree = "<group>"; };
+		8C1E37E4269ED50400D980BA /* HomeTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopView.swift; sourceTree = "<group>"; };
+		8C1E37E6269EEE8900D980BA /* ProfileTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTopView.swift; sourceTree = "<group>"; };
+		8C1E37E8269F015C00D980BA /* ProfileRowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRowsView.swift; sourceTree = "<group>"; };
+		8C1E37EA269F041E00D980BA /* MyEvalutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEvalutionView.swift; sourceTree = "<group>"; };
+		8C1E37EC269FCC5100D980BA /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		8C1E37EE269FD4C300D980BA /* NavArrowRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavArrowRightView.swift; sourceTree = "<group>"; };
+		8C1E37F0269FE04500D980BA /* BaseInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoCard.swift; sourceTree = "<group>"; };
+		8C1E37F2269FE05E00D980BA /* AuthCardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCardRow.swift; sourceTree = "<group>"; };
+		8C1E37F4269FE08E00D980BA /* NavAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavAction.swift; sourceTree = "<group>"; };
+		8C1E37F6269FE0F900D980BA /* DeptInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeptInfoCard.swift; sourceTree = "<group>"; };
+		8C1E37FA269FE1E100D980BA /* GuideModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideModel.swift; sourceTree = "<group>"; };
+		8C1E37FC269FE3B600D980BA /* DoctorAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAuthModel.swift; sourceTree = "<group>"; };
+		8C1E37FE269FE6C700D980BA /* AuthCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCard.swift; sourceTree = "<group>"; };
+		8C1E3800269FE9F600D980BA /* CredentialInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialInfoCard.swift; sourceTree = "<group>"; };
+		8C1E3802269FF5DC00D980BA /* AgentInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentInfoCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C1E378A269C12FD00D980BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C1E3784269C12FD00D980BA = {
+			isa = PBXGroup;
+			children = (
+				8C1E378F269C12FD00D980BA /* HelloDoctor */,
+				8C1E378E269C12FD00D980BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C1E378E269C12FD00D980BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E378D269C12FD00D980BA /* HelloDoctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C1E378F269C12FD00D980BA /* HelloDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37CE269D6DEA00D980BA /* Resources */,
+				8C1E37CD269D6DD500D980BA /* Base */,
+				8C1E37B8269D25E000D980BA /* Components */,
+				8C1E37C5269D35FB00D980BA /* Extensions */,
+				8C1E37F9269FE17600D980BA /* Models */,
+				8C1E37F8269FE15400D980BA /* Modules */,
+				8C1E3796269C12FD00D980BA /* Preview Content */,
+			);
+			path = HelloDoctor;
+			sourceTree = "<group>";
+		};
+		8C1E3796269C12FD00D980BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E3797269C12FD00D980BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C1E37B3269D255A00D980BA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37A9269C2FF700D980BA /* LoginView.swift */,
+				8C1E37BD269D2DCB00D980BA /* LogoTitle.swift */,
+				8C1E37BF269D2E6F00D980BA /* FieldView.swift */,
+				8C1E37C1269D2FC500D980BA /* LoginActions.swift */,
+				8C1E37C8269D3EBE00D980BA /* ThirdLogin.swift */,
+				8C1E37C6269D37D200D980BA /* PrivacyView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8C1E37B8269D25E000D980BA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37B9269D261F00D980BA /* RoundedRetangleOutlineButton.swift */,
+				8C1E37BB269D262C00D980BA /* RoundedRetangleElevatedButton.swift */,
+				8C1E37EE269FD4C300D980BA /* NavArrowRightView.swift */,
+				8C1E37C3269D301500D980BA /* VGap.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8C1E37C5269D35FB00D980BA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37AF269C3F3E00D980BA /* ViewModifiers.swift */,
+				8C1E37B1269C464400D980BA /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8C1E37CA269D6DB400D980BA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37CF269D6E6900D980BA /* HomeView.swift */,
+				8C1E37E4269ED50400D980BA /* HomeTopView.swift */,
+				8C1E37DA269E8F7500D980BA /* DoctorInfoView.swift */,
+				8C1E37DE269E94AD00D980BA /* MainMenus.swift */,
+				8C1E37E0269EC34C00D980BA /* MenusSectionView.swift */,
+				8C1E37E2269ECA9D00D980BA /* MenusView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8C1E37CB269D6DC100D980BA /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37D1269D6E7A00D980BA /* ChatView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		8C1E37CC269D6DCB00D980BA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37D3269D6E8900D980BA /* ProfileView.swift */,
+				8C1E37EA269F041E00D980BA /* MyEvalutionView.swift */,
+				8C1E37E6269EEE8900D980BA /* ProfileTopView.swift */,
+				8C1E37E8269F015C00D980BA /* ProfileRowsView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8C1E37CD269D6DD500D980BA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E3792269C12FD00D980BA /* ContentView.swift */,
+				8C1E37AB269C300D00D980BA /* UserTypeView.swift */,
+				8C1E37AD269C301600D980BA /* MainView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8C1E37CE269D6DEA00D980BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E3799269C12FD00D980BA /* Info.plist */,
+				8C1E3790269C12FD00D980BA /* HelloDoctorApp.swift */,
+				8C1E3794269C12FD00D980BA /* Assets.xcassets */,
+				8C1E379F269C1E7E00D980BA /* Launch Screen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8C1E37D5269D7B1100D980BA /* DoctorAuth */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37EC269FCC5100D980BA /* AuthView.swift */,
+				8C1E37F4269FE08E00D980BA /* NavAction.swift */,
+				8C1E37F0269FE04500D980BA /* BaseInfoCard.swift */,
+				8C1E37F6269FE0F900D980BA /* DeptInfoCard.swift */,
+				8C1E3800269FE9F600D980BA /* CredentialInfoCard.swift */,
+				8C1E3802269FF5DC00D980BA /* AgentInfoCard.swift */,
+				8C1E37FE269FE6C700D980BA /* AuthCard.swift */,
+				8C1E37F2269FE05E00D980BA /* AuthCardRow.swift */,
+			);
+			path = DoctorAuth;
+			sourceTree = "<group>";
+		};
+		8C1E37D6269D879600D980BA /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37A5269C21B700D980BA /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		8C1E37D7269D87A100D980BA /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37D8269D87D700D980BA /* GuideView.swift */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		8C1E37F8269FE15400D980BA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37D6269D879600D980BA /* Splash */,
+				8C1E37D7269D87A100D980BA /* Guide */,
+				8C1E37B3269D255A00D980BA /* Login */,
+				8C1E37D5269D7B1100D980BA /* DoctorAuth */,
+				8C1E37CA269D6DB400D980BA /* Home */,
+				8C1E37CB269D6DC100D980BA /* Chat */,
+				8C1E37CC269D6DCB00D980BA /* Profile */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8C1E37F9269FE17600D980BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C1E37A7269C279100D980BA /* RootScreenModel.swift */,
+				8C1E37FA269FE1E100D980BA /* GuideModel.swift */,
+				8C1E37FC269FE3B600D980BA /* DoctorAuthModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C1E378C269C12FD00D980BA /* HelloDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C1E379C269C12FD00D980BA /* Build configuration list for PBXNativeTarget "HelloDoctor" */;
+			buildPhases = (
+				8C1E3789269C12FD00D980BA /* Sources */,
+				8C1E378A269C12FD00D980BA /* Frameworks */,
+				8C1E378B269C12FD00D980BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloDoctor;
+			productName = HelloDoctor;
+			productReference = 8C1E378D269C12FD00D980BA /* HelloDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C1E3785269C12FD00D980BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8C1E378C269C12FD00D980BA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C1E3788269C12FD00D980BA /* Build configuration list for PBXProject "HelloDoctor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C1E3784269C12FD00D980BA;
+			productRefGroup = 8C1E378E269C12FD00D980BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C1E378C269C12FD00D980BA /* HelloDoctor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C1E378B269C12FD00D980BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1E37A0269C1E7E00D980BA /* Launch Screen.storyboard in Resources */,
+				8C1E3798269C12FD00D980BA /* Preview Assets.xcassets in Resources */,
+				8C1E3795269C12FD00D980BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C1E3789269C12FD00D980BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1E37FD269FE3B600D980BA /* DoctorAuthModel.swift in Sources */,
+				8C1E37D2269D6E7A00D980BA /* ChatView.swift in Sources */,
+				8C1E37D4269D6E8900D980BA /* ProfileView.swift in Sources */,
+				8C1E3793269C12FD00D980BA /* ContentView.swift in Sources */,
+				8C1E37E9269F015C00D980BA /* ProfileRowsView.swift in Sources */,
+				8C1E37B2269C464400D980BA /* Colors.swift in Sources */,
+				8C1E3801269FE9F600D980BA /* CredentialInfoCard.swift in Sources */,
+				8C1E37AE269C301600D980BA /* MainView.swift in Sources */,
+				8C1E37AC269C300D00D980BA /* UserTypeView.swift in Sources */,
+				8C1E37C4269D301500D980BA /* VGap.swift in Sources */,
+				8C1E37E3269ECA9D00D980BA /* MenusView.swift in Sources */,
+				8C1E37C0269D2E6F00D980BA /* FieldView.swift in Sources */,
+				8C1E37B0269C3F3E00D980BA /* ViewModifiers.swift in Sources */,
+				8C1E3791269C12FD00D980BA /* HelloDoctorApp.swift in Sources */,
+				8C1E37E5269ED50400D980BA /* HomeTopView.swift in Sources */,
+				8C1E37E1269EC34C00D980BA /* MenusSectionView.swift in Sources */,
+				8C1E37F1269FE04500D980BA /* BaseInfoCard.swift in Sources */,
+				8C1E37C9269D3EBE00D980BA /* ThirdLogin.swift in Sources */,
+				8C1E37F7269FE0F900D980BA /* DeptInfoCard.swift in Sources */,
+				8C1E37D0269D6E6900D980BA /* HomeView.swift in Sources */,
+				8C1E37C2269D2FC500D980BA /* LoginActions.swift in Sources */,
+				8C1E37C7269D37D200D980BA /* PrivacyView.swift in Sources */,
+				8C1E37FF269FE6C700D980BA /* AuthCard.swift in Sources */,
+				8C1E37BA269D261F00D980BA /* RoundedRetangleOutlineButton.swift in Sources */,
+				8C1E37A8269C279100D980BA /* RootScreenModel.swift in Sources */,
+				8C1E37FB269FE1E100D980BA /* GuideModel.swift in Sources */,
+				8C1E37E7269EEE8900D980BA /* ProfileTopView.swift in Sources */,
+				8C1E37BE269D2DCB00D980BA /* LogoTitle.swift in Sources */,
+				8C1E37AA269C2FF700D980BA /* LoginView.swift in Sources */,
+				8C1E37EF269FD4C300D980BA /* NavArrowRightView.swift in Sources */,
+				8C1E37D9269D87D700D980BA /* GuideView.swift in Sources */,
+				8C1E37DB269E8F7500D980BA /* DoctorInfoView.swift in Sources */,
+				8C1E37EB269F041E00D980BA /* MyEvalutionView.swift in Sources */,
+				8C1E37ED269FCC5100D980BA /* AuthView.swift in Sources */,
+				8C1E37BC269D262C00D980BA /* RoundedRetangleElevatedButton.swift in Sources */,
+				8C1E3803269FF5DC00D980BA /* AgentInfoCard.swift in Sources */,
+				8C1E37F3269FE05E00D980BA /* AuthCardRow.swift in Sources */,
+				8C1E37F5269FE08E00D980BA /* NavAction.swift in Sources */,
+				8C1E37A6269C21B700D980BA /* SplashView.swift in Sources */,
+				8C1E37DF269E94AD00D980BA /* MainMenus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C1E379A269C12FD00D980BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C1E379B269C12FD00D980BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C1E379D269C12FD00D980BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloDoctor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2JBJG97976;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloDoctor/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanch.HelloDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8C1E379E269C12FD00D980BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloDoctor/Preview Content\"";
+				DEVELOPMENT_TEAM = 2JBJG97976;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloDoctor/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanch.HelloDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C1E3788269C12FD00D980BA /* Build configuration list for PBXProject "HelloDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1E379A269C12FD00D980BA /* Debug */,
+				8C1E379B269C12FD00D980BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1E379C269C12FD00D980BA /* Build configuration list for PBXNativeTarget "HelloDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1E379D269C12FD00D980BA /* Debug */,
+				8C1E379E269C12FD00D980BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C1E3785269C12FD00D980BA /* Project object */;
+}
